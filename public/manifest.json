@@ -1,0 +1,32 @@
+{
+  "name": "Pastelão Sabor Brasileiro",
+  "short_name": "Pastelão",
+  "description": "Pastéis fritos na hora, pizzas, lanches e bebidas. Peça pelo WhatsApp!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f9f5ec",
+  "theme_color": "#b91c1c",
+  "categories": ["food", "lifestyle", "shopping"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
