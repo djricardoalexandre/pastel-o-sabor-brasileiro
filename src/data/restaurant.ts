@@ -1,6 +1,6 @@
 // =====================================================
 // INFORMAÇÕES DO ESTABELECIMENTO
-// Edite facilmente os dados abaixo com as informações reais.
+// 
 // =====================================================
 
 export const RESTAURANT_INFO = {
