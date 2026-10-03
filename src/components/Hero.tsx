@@ -78,16 +78,16 @@ export default function Hero({ onNavigate }: HeroProps) {
           {/* Visual */}
           <div className="relative order-1 lg:order-2 perspective-1000">
             <div className="relative mx-auto max-w-sm lg:max-w-md">
-              {/* Main image */}
-              <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-amber-300/30 preserve-3d animate-float">
+              {/* Main image container corrected */}
+              <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-amber-300/30 preserve-3d animate-float p-1 bg-red-800/20">
                 <img
                   src="/images/foto_01.jpeg"
                   alt="Pastelão Sabor Brasileiro"
-                  className="w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover"
+                  className="w-full h-auto max-h-[290px] sm:max-h-[390px] lg:max-h-[440px] object-contain mx-auto"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-red-900/60 via-transparent to-transparent" />
+                
                 {/* Floating badge */}
-                <div className="absolute bottom-4 left-4 glass rounded-2xl px-4 py-2 border border-white/30">
+                <div className="absolute bottom-4 left-4 glass rounded-2xl px-4 py-2 border border-white/30 z-20">
                   <p className="text-xs font-semibold text-red-900">Frito na hora</p>
                   <p className="text-sm font-extrabold text-amber-700">Quentinho e crocante</p>
                 </div>
