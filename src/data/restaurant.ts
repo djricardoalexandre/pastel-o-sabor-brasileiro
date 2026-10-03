@@ -25,12 +25,12 @@ export const RESTAURANT_INFO = {
 
 // =====================================================
 // HORÁRIO DE FUNCIONAMENTO
-// Edite facilmente os horários abaixo com os dados reais.
+// 
 // =====================================================
 
 export const BUSINESS_HOURS = [
-  { days: 'Segunda a Sábado', hours: '18:00 às 23:00', open: true },
-  { days: 'Domingo', hours: '18:00 às 22:30', open: true },
+  { days: 'Segunda a Sábado', hours: '15:00 às 22:00', open: true },
+  { days: 'Domingo', hours: '15:00 às 22:00', open: true },
 ];
 
 export function isCurrentlyOpen(): boolean {
